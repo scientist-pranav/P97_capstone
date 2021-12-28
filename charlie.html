@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale==1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .checked {
+          color: orange;
+        }
+        </style>        
+    </head>
+    <body>
+        <div class="container">
+            <div class="h">
+                <h4 id="user_name"></h4>
+
+            <script>
+                document.getElementById("user_name").innerHTML = localStorage.getItem("user_name");
+              </script>
+
+              
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="reviews.html">Book Reviews</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="reviews.html">Home</a></li>
+                
+                </ul>
+                </div>
+            </nav>
+
+                <h1>Charlie And The Chocolate Factory</h1>
+                <br> 
+                <img src="charlie.jpg" height="300"/>
+                <br>
+                <br>
+                <br>
+                <p>Charlie and The Chocolate Factory is a very good book.</p>
+            </div>
+            <div class="list-group">
+                <li class="list-group-item">Review 1
+                    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </li>
+
+                <li class="list-group-item">Review 2 
+                    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </li>                
+
+                <li class="list-group-item">Review 3
+                    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </li>                
+        </div>
+        
+</body>
+
+</html>
+
